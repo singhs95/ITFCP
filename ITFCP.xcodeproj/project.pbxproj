@@ -7,18 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CAA3F1CD27BD104D00B1188E /* ITFCPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA3F1CC27BD104D00B1188E /* ITFCPApp.swift */; };
+		CA46C8442806BDB100CF1DAC /* CarPlayPrePickListOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA46C8432806BDB100CF1DAC /* CarPlayPrePickListOne.swift */; };
+		CA46C8462806BDC700CF1DAC /* CarPlayPrePickListTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA46C8452806BDC700CF1DAC /* CarPlayPrePickListTwo.swift */; };
+		CA46C8482806BE5000CF1DAC /* CarPlayPrePickListTre.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA46C8472806BE5000CF1DAC /* CarPlayPrePickListTre.swift */; };
+		CA46C84B2806EDCA00CF1DAC /* CarPlayOverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA46C84A2806EDCA00CF1DAC /* CarPlayOverView.swift */; };
+		CA6A949627FB1373001C17F1 /* CarPlayGridTemp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6A949527FB1373001C17F1 /* CarPlayGridTemp.swift */; };
+		CA71DF9A28059EDB002AFFB6 /* CarPlayShiftDetaliScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA71DF9928059EDB002AFFB6 /* CarPlayShiftDetaliScreen.swift */; };
+		CA71DF9F2805B266002AFFB6 /* CarPlayPreGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA71DF9E2805B266002AFFB6 /* CarPlayPreGrid.swift */; };
 		CAA3F1CF27BD104D00B1188E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA3F1CE27BD104D00B1188E /* ContentView.swift */; };
 		CAA3F1D127BD104F00B1188E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAA3F1D027BD104F00B1188E /* Assets.xcassets */; };
 		CAA3F1D427BD104F00B1188E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAA3F1D327BD104F00B1188E /* Preview Assets.xcassets */; };
+		CAA3F1DD27BD120A00B1188E /* CarPlaySceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA3F1DC27BD120A00B1188E /* CarPlaySceneDelegate.swift */; };
+		CAA3F1DF27BD123700B1188E /* CarPlayTabScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA3F1DE27BD123700B1188E /* CarPlayTabScreen.swift */; };
+		CAA3F1E127BD124A00B1188E /* CarPlayPOIScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA3F1E027BD124A00B1188E /* CarPlayPOIScreen.swift */; };
+		CAA3F1E327BD127900B1188E /* CarPlayPreListDetaliScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA3F1E227BD127900B1188E /* CarPlayPreListDetaliScreen.swift */; };
+		CAA3F1E527BD129F00B1188E /* CarPlayListScreen2.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA3F1E427BD129F00B1188E /* CarPlayListScreen2.swift */; };
+		CAA3F1E827BD12E800B1188E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA3F1E727BD12E800B1188E /* SceneDelegate.swift */; };
+		CAA3F1EA27BD131400B1188E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA3F1E927BD131400B1188E /* AppDelegate.swift */; };
+		CAA3F1EC27BD13A300B1188E /* CarParkDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA3F1EB27BD13A300B1188E /* CarParkDetailScreen.swift */; };
+		CAC224B5280433D8002026CA /* CarPlayBonusListOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC224B4280433D8002026CA /* CarPlayBonusListOne.swift */; };
+		CAC224B7280441E1002026CA /* CarPlayBonusDetaliScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC224B6280441E1002026CA /* CarPlayBonusDetaliScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CA46C8432806BDB100CF1DAC /* CarPlayPrePickListOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarPlayPrePickListOne.swift; sourceTree = "<group>"; };
+		CA46C8452806BDC700CF1DAC /* CarPlayPrePickListTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarPlayPrePickListTwo.swift; sourceTree = "<group>"; };
+		CA46C8472806BE5000CF1DAC /* CarPlayPrePickListTre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarPlayPrePickListTre.swift; sourceTree = "<group>"; };
+		CA46C84A2806EDCA00CF1DAC /* CarPlayOverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarPlayOverView.swift; sourceTree = "<group>"; };
+		CA6A949527FB1373001C17F1 /* CarPlayGridTemp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarPlayGridTemp.swift; sourceTree = "<group>"; };
+		CA71DF9928059EDB002AFFB6 /* CarPlayShiftDetaliScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarPlayShiftDetaliScreen.swift; sourceTree = "<group>"; };
+		CA71DF9E2805B266002AFFB6 /* CarPlayPreGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarPlayPreGrid.swift; sourceTree = "<group>"; };
 		CAA3F1C927BD104D00B1188E /* ITFCP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ITFCP.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CAA3F1CC27BD104D00B1188E /* ITFCPApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ITFCPApp.swift; sourceTree = "<group>"; };
 		CAA3F1CE27BD104D00B1188E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CAA3F1D027BD104F00B1188E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CAA3F1D327BD104F00B1188E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CAA3F1DA27BD108200B1188E /* ITFCP.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ITFCP.entitlements; sourceTree = "<group>"; };
+		CAA3F1DC27BD120A00B1188E /* CarPlaySceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarPlaySceneDelegate.swift; sourceTree = "<group>"; };
+		CAA3F1DE27BD123700B1188E /* CarPlayTabScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarPlayTabScreen.swift; sourceTree = "<group>"; };
+		CAA3F1E027BD124A00B1188E /* CarPlayPOIScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarPlayPOIScreen.swift; sourceTree = "<group>"; };
+		CAA3F1E227BD127900B1188E /* CarPlayPreListDetaliScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarPlayPreListDetaliScreen.swift; sourceTree = "<group>"; };
+		CAA3F1E427BD129F00B1188E /* CarPlayListScreen2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarPlayListScreen2.swift; sourceTree = "<group>"; };
+		CAA3F1E727BD12E800B1188E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CAA3F1E927BD131400B1188E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CAA3F1EB27BD13A300B1188E /* CarParkDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarParkDetailScreen.swift; sourceTree = "<group>"; };
+		CAC224B4280433D8002026CA /* CarPlayBonusListOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarPlayBonusListOne.swift; sourceTree = "<group>"; };
+		CAC224B6280441E1002026CA /* CarPlayBonusDetaliScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarPlayBonusDetaliScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +65,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CA46C8402806BCED00CF1DAC /* CarPlayGrids */ = {
+			isa = PBXGroup;
+			children = (
+				CA6A949527FB1373001C17F1 /* CarPlayGridTemp.swift */,
+				CA71DF9E2805B266002AFFB6 /* CarPlayPreGrid.swift */,
+			);
+			path = CarPlayGrids;
+			sourceTree = "<group>";
+		};
+		CA46C8412806BD4800CF1DAC /* CarPlayBonusSys */ = {
+			isa = PBXGroup;
+			children = (
+				CA71DF9928059EDB002AFFB6 /* CarPlayShiftDetaliScreen.swift */,
+				CAC224B6280441E1002026CA /* CarPlayBonusDetaliScreen.swift */,
+			);
+			path = CarPlayBonusSys;
+			sourceTree = "<group>";
+		};
+		CA46C8422806BD8300CF1DAC /* CarPlayPreListPick */ = {
+			isa = PBXGroup;
+			children = (
+				CA46C8432806BDB100CF1DAC /* CarPlayPrePickListOne.swift */,
+				CA46C8452806BDC700CF1DAC /* CarPlayPrePickListTwo.swift */,
+				CA46C8472806BE5000CF1DAC /* CarPlayPrePickListTre.swift */,
+			);
+			path = CarPlayPreListPick;
+			sourceTree = "<group>";
+		};
+		CA46C8492806EDAA00CF1DAC /* OverView */ = {
+			isa = PBXGroup;
+			children = (
+				CA46C84A2806EDCA00CF1DAC /* CarPlayOverView.swift */,
+			);
+			path = OverView;
+			sourceTree = "<group>";
+		};
+		CA71DF9B2805AD8D002AFFB6 /* CarPlayScreens */ = {
+			isa = PBXGroup;
+			children = (
+				CAA3F1E427BD129F00B1188E /* CarPlayListScreen2.swift */,
+				CAA3F1E227BD127900B1188E /* CarPlayPreListDetaliScreen.swift */,
+				CAA3F1EB27BD13A300B1188E /* CarParkDetailScreen.swift */,
+				CAA3F1E027BD124A00B1188E /* CarPlayPOIScreen.swift */,
+				CAA3F1DE27BD123700B1188E /* CarPlayTabScreen.swift */,
+			);
+			path = CarPlayScreens;
+			sourceTree = "<group>";
+		};
 		CAA3F1C027BD104D00B1188E = {
 			isa = PBXGroup;
 			children = (
@@ -51,9 +132,12 @@
 		CAA3F1CB27BD104D00B1188E /* ITFCP */ = {
 			isa = PBXGroup;
 			children = (
-				CAA3F1CC27BD104D00B1188E /* ITFCPApp.swift */,
-				CAA3F1CE27BD104D00B1188E /* ContentView.swift */,
+				CAA3F1DB27BD11EE00B1188E /* CP */,
+				CAA3F1E627BD12C800B1188E /* Phone */,
+				CAA3F1E727BD12E800B1188E /* SceneDelegate.swift */,
+				CAA3F1E927BD131400B1188E /* AppDelegate.swift */,
 				CAA3F1D027BD104F00B1188E /* Assets.xcassets */,
+				CAA3F1DA27BD108200B1188E /* ITFCP.entitlements */,
 				CAA3F1D227BD104F00B1188E /* Preview Content */,
 			);
 			path = ITFCP;
@@ -65,6 +149,28 @@
 				CAA3F1D327BD104F00B1188E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CAA3F1DB27BD11EE00B1188E /* CP */ = {
+			isa = PBXGroup;
+			children = (
+				CA46C8492806EDAA00CF1DAC /* OverView */,
+				CA46C8422806BD8300CF1DAC /* CarPlayPreListPick */,
+				CA46C8412806BD4800CF1DAC /* CarPlayBonusSys */,
+				CA46C8402806BCED00CF1DAC /* CarPlayGrids */,
+				CA71DF9B2805AD8D002AFFB6 /* CarPlayScreens */,
+				CAA3F1DC27BD120A00B1188E /* CarPlaySceneDelegate.swift */,
+				CAC224B4280433D8002026CA /* CarPlayBonusListOne.swift */,
+			);
+			path = CP;
+			sourceTree = "<group>";
+		};
+		CAA3F1E627BD12C800B1188E /* Phone */ = {
+			isa = PBXGroup;
+			children = (
+				CAA3F1CE27BD104D00B1188E /* ContentView.swift */,
+			);
+			path = Phone;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +243,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA6A949627FB1373001C17F1 /* CarPlayGridTemp.swift in Sources */,
+				CAA3F1E127BD124A00B1188E /* CarPlayPOIScreen.swift in Sources */,
+				CA71DF9F2805B266002AFFB6 /* CarPlayPreGrid.swift in Sources */,
+				CAC224B7280441E1002026CA /* CarPlayBonusDetaliScreen.swift in Sources */,
+				CAA3F1E527BD129F00B1188E /* CarPlayListScreen2.swift in Sources */,
+				CA46C8442806BDB100CF1DAC /* CarPlayPrePickListOne.swift in Sources */,
+				CA46C8462806BDC700CF1DAC /* CarPlayPrePickListTwo.swift in Sources */,
+				CA46C84B2806EDCA00CF1DAC /* CarPlayOverView.swift in Sources */,
+				CAA3F1DF27BD123700B1188E /* CarPlayTabScreen.swift in Sources */,
+				CAC224B5280433D8002026CA /* CarPlayBonusListOne.swift in Sources */,
+				CA46C8482806BE5000CF1DAC /* CarPlayPrePickListTre.swift in Sources */,
+				CAA3F1EC27BD13A300B1188E /* CarParkDetailScreen.swift in Sources */,
+				CAA3F1EA27BD131400B1188E /* AppDelegate.swift in Sources */,
+				CAA3F1E327BD127900B1188E /* CarPlayPreListDetaliScreen.swift in Sources */,
 				CAA3F1CF27BD104D00B1188E /* ContentView.swift in Sources */,
-				CAA3F1CD27BD104D00B1188E /* ITFCPApp.swift in Sources */,
+				CAA3F1DD27BD120A00B1188E /* CarPlaySceneDelegate.swift in Sources */,
+				CAA3F1E827BD12E800B1188E /* SceneDelegate.swift in Sources */,
+				CA71DF9A28059EDB002AFFB6 /* CarPlayShiftDetaliScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +388,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ITFCP/ITFCP.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ITFCP/Preview Content\"";
@@ -295,6 +418,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ITFCP/ITFCP.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ITFCP/Preview Content\"";
