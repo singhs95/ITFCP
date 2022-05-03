@@ -16,7 +16,7 @@ class CarplaySceneDelegate : UIResponder, CPTemplateApplicationSceneDelegate{
     func templateApplicationScene(_ templateApplicationScene: CPTemplateApplicationScene,
                                   didConnect interfaceController: CPInterfaceController) {
         
-        let template = createCarPlayGridTemp(cpInterface: interfaceController)
+        let template = createCarPlayStartGid(cpInterface: interfaceController)
         
         
         interfaceController.setRootTemplate( template, animated: false)

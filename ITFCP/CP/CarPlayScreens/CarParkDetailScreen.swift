@@ -15,10 +15,11 @@ func createCarParkDetailScreen(cpInterface: CPInterfaceController, driverName: S
     lines.append(CPInformationItem(title: "Turer plukk 15 min", detail: "2"))
     lines.append(CPInformationItem(title: "Turer plukk 30 min", detail: "3"))
     lines.append(CPInformationItem(title: "Turer plukk 45 min", detail: "5"))
+    
     lines.append(CPInformationItem(title: "Bilstatus", detail: "Ledig 1"))
     lines.append(CPInformationItem(title: "Bilstatus", detail: "SNL 1"))
-   // lines.append(CPInformationItem(title: "Bilstatus", detail: "Opptatt 3"))
-   // lines.append(CPInformationItem(title: "Bilstatus", detail: "Pause 1"))
+    lines.append(CPInformationItem(title: "Bilstatus", detail: "Opptatt 3"))
+    lines.append(CPInformationItem(title: "Bilstatus", detail: "Pause 1"))
     
     
 

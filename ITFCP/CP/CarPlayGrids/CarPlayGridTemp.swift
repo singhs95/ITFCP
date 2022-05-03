@@ -12,14 +12,11 @@ func createCarPlayGridTemp(cpInterface: CPInterfaceController) -> CPTemplate {
     
 
     let testtemplate = createCarPlayPOISCreen(cpInterface: cpInterface)
-   
-    let testtemplate1 = createCarPlayOverView(cpInterface: cpInterface, driverName: "Ovesikt ")
     let testtemplate2 = createCarPlayPreGrid(cpInterface: cpInterface)
-    
     let testtemplate4 = createCarParkDetailScreen(cpInterface: cpInterface, driverName:"Forhåndslister")
     let testtemplate5 = createCarPlayBonusListOne(cpInterface: cpInterface)
     
-    let image = #imageLiteral(resourceName: "taxi")
+   // let image = #imageLiteral(resourceName: "taxi")
     let image2 = #imageLiteral(resourceName: "woman")
     let image3 = #imageLiteral(resourceName: "MapMarker")
     let image4 = #imageLiteral(resourceName: "superhero")
@@ -37,11 +34,7 @@ func createCarPlayGridTemp(cpInterface: CPInterfaceController) -> CPTemplate {
         DispatchQueue.main.async {
             cpInterface.pushTemplate(testtemplate2, animated: false, completion: nil)
         }
-    })
-    let buttonTree: CPGridButton = CPGridButton(titleVariants: ["Oversikt"], image: image5, handler: { _ in
-        DispatchQueue.main.async {
-            cpInterface.pushTemplate(testtemplate1, animated: false, completion: nil)
-        }
+  
     })
     let buttonFour: CPGridButton = CPGridButton(titleVariants: ["Fasteoppdrag"], image: image4, handler: { _ in
         DispatchQueue.main.async {
@@ -54,7 +47,7 @@ func createCarPlayGridTemp(cpInterface: CPInterfaceController) -> CPTemplate {
             cpInterface.pushTemplate(testtemplate5, animated: false, completion: nil)
         }
     })
-    let template = CPGridTemplate(title: "God dag!", gridButtons: [buttonOne, buttonTwo, buttonTree, buttonFour,buttonSix,])
+    let template = CPGridTemplate(title: "ITF AppleCarplay", gridButtons: [buttonOne, buttonTwo, buttonFour,buttonSix,])
  
     return template
     

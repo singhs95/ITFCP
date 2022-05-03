@@ -21,6 +21,7 @@ func createCarPlayBonusListOne(cpInterface: CPInterfaceController) -> CPListTemp
     
     listItems.append(createBonusItemList(cpInterface: cpInterface, title: "BONUS", detailText: " "))
     listItems.append(createShiftItemList(cpInterface: cpInterface, title: "SKIFT", detailText: " "))
+    listItems.append(createShiftItemList(cpInterface: cpInterface, title: "Login", detailText: " "))
 
 
     let template = CPListTemplate(title: "Bonus Info", sections: [CPListSection(items: listItems)])
@@ -57,6 +58,7 @@ func createShiftItemList(cpInterface: CPInterfaceController, title: String, deta
     return listItemTwo
     
 }
+
 
 
 
